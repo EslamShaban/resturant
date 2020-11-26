@@ -1,0 +1,54 @@
+
+/* Start Dashboard Page */
+
+.Eslam{
+ display: flex;
+ position: relative; 
+}
+
+.Eslam h4{
+    color: #FFF;
+    margin-bottom: 30px
+}
+.Eslam .sidebar{
+	width: 200px;
+	height: 100%;
+	background-color: #4b4276;
+    position: fixed;
+    
+}
+
+.Eslam .sidebar ul li{
+    padding: 15px;
+    border-top: 1px solid rgba(255,255,255,0);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+.Eslam .sidebar ul li:hover{
+    background-color: #594f8d;
+    font-size: 15px;
+    border-left: 2px solid #2a7276;
+}
+.Eslam .sidebar ul.hidden{
+    overflow: hidden
+}
+.Eslam .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+    text-decoration: none;
+}
+
+.Eslam .sidebar ul li a:hover{
+    color: #FFF
+}
+.Eslam .sidebar ul li a .fa{
+    width: 25px
+}
+.Eslam .content{
+    margin-left: 200px
+}
+/* End Dashboard Page */

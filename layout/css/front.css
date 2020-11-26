@@ -1,0 +1,620 @@
+/* Strat Main Rulez */
+*{
+   -webkit-box-sizing:border-box; 
+   -moz-box-sizing:border-box; 
+   box-sizing:border-box; 
+}
+
+body{
+    font-size: 16px;
+    background-color: #fafaf8
+}
+
+
+
+.input-container{
+    position: relative;
+}
+
+.asterisk{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #D20707
+}
+.main-form .asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #D20707;
+}
+.nice-message{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #FFF;
+    border-left: 5px solid #f7600e
+}
+/* End Main Rulez */
+
+
+/* Start Header */
+
+.upper-bar{
+    padding: 10px;
+    background-color: #FFF
+}
+
+.upper-bar .my-image{
+    width: 32px;
+    height: 32px
+}
+/* End Header */
+
+/* Start Login Page */
+.formlogin{
+    background-color: #f2f2f2;
+
+}
+.formlogin .formlogindisplayflex{
+    display: flex;
+    margin: 100px 160px 0;
+    padding: 70px 10px;
+}
+.formlogin .head{
+    width: 100%
+}
+.formlogin .formlogindisplayflex input{
+    width: 400px;
+    margin-bottom: 10px
+}
+
+.login-page form,
+.the-errors{
+    max-width: 380px;
+    margin: auto;
+}
+
+.login-page form input{
+    margin-bottom: 10px
+}
+
+.login-page h1{
+    color: #C0C0C0
+}
+.login-page h1 span{
+    cursor: pointer;
+}
+
+.login-page .signup{
+    display: none;
+}
+
+.login-page [data-class="login"].selected{
+    color: #337AB7
+}
+
+.login-page [data-class="signup"].selected{
+    color: #5cb85c
+}
+
+.the-errors .msg{
+    padding: 10px;
+    text-align: left;
+    background-color: #FFF;
+    margin-bottom: 8px;
+    border: 1px solid #e0e0e0; 
+    border-left: 5px solid #cd6858;
+    color: #919191
+
+}
+.the-errors .success{
+    border-left: 5px solid #5cb85c;
+}
+/* End Login Page */
+
+/* Start SignUp Page */
+
+.signuppage,.signinpage{
+    margin-top: 100px;
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+    padding: 10px 20px 10px 0;
+}
+
+.signuppage .formsignup,
+.signinpage .formsignin{
+    background-color: #faf9f8;
+    border: 3px solid #f8f8f9;
+    padding: 50px 15px;
+    
+}
+
+.signuppage .formsignup form input,
+.signinpage .formsignin form input{
+    margin-bottom: 20px !important
+}
+.signuppage .formsignup form input[type = 'submit'],
+.signinpage .formsignin form input[type = 'submit'],
+.setting .formforpassword form input[type = 'submit']{
+    background-color:#f7600e;
+    padding: 10px 5px;
+    color: #FFF;
+    width: 150px;
+    border: none
+}
+.signuppage .formsignup a.login,
+.signinpage .formsignin a.login{
+    text-decoration: none;
+    background-color:#f7600e;
+    padding: 10px 5px;
+    color: #FFF;
+    width: 150px;
+    display: block;
+    text-align: center
+}
+.signuppage .formsignup form label,
+.signinpage .formsignin form label{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    color: #888
+}
+.signuppage .registerimage,
+.signinpage .registerimage{
+    margin-left: 20px;
+}
+.registerimage h3{
+    margin: 10px 0 40px;
+    font-size: 21px;
+    font-weight: bold
+}
+.registerimage p{
+    color: #888
+}
+/* End SignUp Page */
+
+/* Start Bootstrab Edit */
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0
+}
+
+.navbar-brand{
+    font-size: 1em
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover,
+.dropdown-menu{
+    background-color: #3498bd
+}
+.dropdown-menu{
+    
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0
+    
+}
+.dropdown-menu li>a{
+    color: #FFF;
+    padding: 10px 15px
+}
+
+.dropdown-menu li>a:focus,
+.dropdown-menu li>a:hover{
+    color: #FFF;
+    background-color: #8e44ad
+}
+
+.form-control{
+    position: relative
+}
+
+/* End Bootstrab Edit */
+
+
+/* Start Dashboard Page */
+
+
+.slidder{
+    background: url('../images/Food.jpg')no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #FFF;
+    height: 600px
+}
+
+.slidder .slidderContent p{
+    font-size:20px;
+    font-family:cursive;
+    margin-bottom: 30px
+}
+
+.slidder .mealform .sear input{
+    margin-left: -40px;
+}
+.slidder .mealform .subm input{
+    background-color: #f7600e;
+    color: #FFF;
+    padding: 12px 40px;
+    border: none;
+    margin-left: -65px;
+    border-radius: 2px
+}
+
+
+.slidder .overlay{
+    background: rgba(49 , 55 , 61 , .5);
+    width: 100%;
+    height: 100%
+}
+.slidder .slidderContent{
+    margin-top: 150px;
+}
+
+.slidder .slidderContent h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 40px 0;
+    font-family:cursive
+}
+
+.food .categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.food .categories ul li{
+    padding: 20px;
+    background-color: #eeeeee6b;
+    border: 1px solid #EEE;
+    margin: 0 4px
+    
+}
+.food .categories ul a{
+    text-decoration: none;
+    color: #000
+}
+.food .categories ul li:hover{
+    background-color: #EEE;
+    cursor: pointer
+}
+.food .categories ul li.first{
+    background-color: #f7600e;
+    color: #FFF;
+    border: 2px solid #f7600e;
+    margin: 0;
+    border-radius: 3px
+}
+
+
+.nav-center{
+    text-align: center
+}
+
+.food{
+    margin-top: 100px
+}
+.food .foodItem{
+    height: 390px;
+    background-color: #f9f9f7;
+    margin-bottom: 50px
+}
+.food .foodItem img{width: 100%; height:200px; margin-bottom: 20px}
+.food .foodItem .data{padding:10px }
+.food .foodItem span{color: #000; font-weight: bold}
+.food .foodItem .data p{
+    margin-top: 10px;
+    color: #666;
+    height: 100px;
+    overflow: auto
+}
+
+.food .foodItem .data a{
+    text-decoration: none;
+    color: #000;
+}
+
+.food .foodItem .data a:hover{
+    color: #f7600e
+}
+.food .foodItem .data .order,
+.fooddetail .orderingCart .order,
+.orderdetail .viewdetails .order{
+    text-decoration: none;
+    border: 2px dashed #f7600e;
+    padding: 5px 10px;
+    color: #f7600e
+}
+.food .foodItem .data .order:hover,
+.fooddetail .orderingCart .order:hover,
+.orderdetail .viewdetails .order:hover{
+    background-color: #f7600e;
+    color: #FFF
+}
+.food .foodItem .data .price{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px
+}
+
+
+
+/* End Dashboard Page */
+
+
+/* Start Food Detail Page */
+.fooddetailslidder{
+    background: url('../images/food_detailheaderphoto.jpg')no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #FFF;
+    height: 400px
+}
+.fooddetail{
+    margin-top: 100px
+}
+.fooddetail .displayflex,
+.orderdetail .displayflex{
+    display: flex
+}
+.fooddetail .displayflex .image{
+    width: 200px;
+}
+.fooddetail .displayflex .content{
+    width: 600px;
+}
+.fooddetail .displayflex .image img{width: 100%}
+.fooddetail .displayflex .content{margin-left: 5px}
+.orderdetail .displayflex .contentorder{margin-left: 15px}
+.fooddetail .displayflex .content h3,
+.orderdetail .displayflex .contentorder h3{margin: 0 0 5px}
+.panel-heading .total{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: bold
+}
+.fooddetail .orderingCart span{
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold
+}
+.fooddetail .orderingCart p{
+    text-align: center;
+    color: #999;
+    font-weight: bold
+}
+/* End Food Detail Page */
+/* Start Cart Page */
+
+.panel-body .orderForm{
+    padding:15px 30px
+}
+.panel-body .orderForm input{
+    padding:7px 10px; width:100%
+}
+.panel-body .orderingCart p{
+    margin: 10px
+}
+.panel-body .orderingCart .ordernow{
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px auto;
+    background-color: #f7600e;
+    color: #FFF
+    
+}
+
+.panel .numberOfItem i.fa-plus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#080;
+    color:#FFF;
+    line-height: 30px;
+    text-align: center;
+}
+.panel .numberOfItem i.fa-minus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#F00;
+    color:#FFF;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* End Cart Page */
+
+/* Start My Order Page */
+
+.orderSlider{
+    height: 300px
+}
+
+.orderdetail{
+    margin-top: 20px;
+    border: 1px solid #f4f4f2;
+    height: 200px
+}
+.orderdetail hr{
+        
+    border: 1px solid #f4f4f2;
+
+}
+.orderSlider img{height: 100%; width: 100%}
+
+.orderdetail .viewdetails{
+    padding: 10px;
+    background-color: #FFF;
+    height: 180px
+}
+.orderdetail .contentorder,
+.orderdetail .image{
+    margin-top: 10px
+}
+
+.orderdetail .viewdetails a{
+    width: 120px;
+    display: block;
+    margin: 0 auto
+}
+/* End My Order Page */
+
+
+.fooddetail .clientDetail{
+    padding: 15px 30px
+}
+.fooddetail .clientDetail p{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.fooddetail .clientDetail p:first-child{     
+    border-bottom: 1px solid #f4f4f2
+}
+.fooddetail .clientDetail p span{
+    font-weight: 600;
+    font-size: 16px;
+    color:#999
+}
+
+.clientacrion a.inovice{
+    text-decoration: none;
+    background-color:#f7600e;
+    padding: 15px 12px;
+    color: #FFF;
+    margin: 5px auto;
+    display: block;
+    width: 150px;
+    text-align: center
+}
+.clientacrion a.cancle{
+    color: #f7600e;
+    margin: 10px auto;
+    display: block;
+    width: 150px;
+    text-align: center
+}
+.clientacrion span{
+    color: #666;
+    margin: 10px auto;
+    display: block;
+    width: 150px;
+    text-align: center 
+}
+.clientacrion p{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center
+}
+.orderdetail .contentorder .codeOrder{
+    text-decoration: none;
+    color: #000
+}
+
+/* Start Order Detail */
+
+
+
+/* End Order Detail */
+
+/* */
+.nav-pagination ul li a{
+    background-color: #FFF;
+    color:#f7600e
+}
+.nav-pagination ul li:hover a{
+    background-color: #f7600e;
+    color:#FFF
+}
+
+.select{
+    background-color: #f7600e !important;
+    color:#FFF !important
+}
+/* */
+
+/* Start Section Contact-Us */
+
+.Contact-Us{
+    background: url("../images/contact.jpg") no-repeat  center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height:300px
+}
+.Contact-Us .fields{
+    background: rgba(9 , 9 , 9 , 0.8);
+    min-height: 300px;
+    color: #DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.Contact-Us .fields .success{
+    position: absolute;
+    width: 400px;
+    left: 10px;
+}
+.Contact-Us p{margin-bottom: 40px}
+.Contact-Us textarea{height: 108px}
+.Contact-Us input,
+.Contact-Us textarea{
+    background: rgba(82 ,78 ,78 ,0.5);
+    color: #FFF;
+    border: none
+}
+.Contact-Us .fields .submit-btn{
+    background-color: #f7600e;
+}
+.Contact-Us .fields .submit-btn:hover{
+    background-color: #c44906;
+    color:#FFF
+}
+/* End Sectoin Contact-Us */
+
+.footer .copyright{
+    background: #333;
+    color: #AAA;
+    padding: 15px 0;
+
+    font-size: 18px
+}
+
+.footer .copyright span{
+    color: #f7600e;
+}
+/* Start Setting Page */
+
+.setting .formforpassword{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #faf9f8;
+    border: 3px solid #f8f8f9;
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+    padding: 40px 30px 60px
+}
+.setting .formforpassword label{
+    margin-bottom: 10px
+}
+
+
+/* End Setting Page */
